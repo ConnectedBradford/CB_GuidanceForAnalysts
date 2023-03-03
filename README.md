@@ -1,4 +1,4 @@
-# FDM_template
-FDM template repo
+# Guidance for Analysts
 
-## Change the title of this README to match the name of the dataset and provide basic details about the data source and FDM contents.
+Guidance to help Analysts make the most of teh Juypter Notebook environment and access to Connected Bradford data 
+
