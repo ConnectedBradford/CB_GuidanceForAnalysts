@@ -1,8 +1,8 @@
 FDM Documents
 
-Contains all documentation for the <dataset> FDM.
+Contains sample code to get Analysts started
 
-Contents:
+Please see the code folder for some sample code to get you started.
 
-datadict/ - <dataset> FDM Data Dictionary files
+
 
