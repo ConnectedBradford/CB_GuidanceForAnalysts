@@ -1,9 +1,6 @@
 # FDM Code
 
-Contains all code used to create and maintain the FDM_<dataset> repo
+Contains sample code used to list data and pull data into R initially 
 
-Contents:
-
-<empty>
 
 
