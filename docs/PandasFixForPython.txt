@@ -1,0 +1,19 @@
+Hi All 
+
+For those of you wanting to use Pandas. 
+
+I’ve unsuccessfully tried to install pandas-gbq  (“pip install pandas” worked) previously and thoughts I’d have a go again today. 
+
+“pip install pandas-gbq” came up with an inconsistency error. 
+
+So I googled and after some digging around I found this : “pip install h5py pip install typing-extensions pip install wheel”
+
+Ran that in a terminal and then “pip install pandas-gbq”
+
+And it worked ! 
+
+I hope for those of you using Python this helps  
+
+Kind regards
+
+John
