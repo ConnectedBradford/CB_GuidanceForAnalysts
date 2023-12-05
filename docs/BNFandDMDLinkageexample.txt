@@ -1,0 +1,34 @@
+
+SELECT a.code, a.term,
+b.BNF_Code, b.BNF_Name, b.SNOMED_Code, b.DMplusD_ProductDescription,
+b.DMplusD__Product_and_PackDescription, b.Pack
+FROM `yhcr-prd-phm-bia-core.CB_MYSPACE_MSP.BNFreadcodesv2` a,
+`yhcr-prd-phm-bia-core.CB_LOOKUPS.tbl_BNF_DMD_SNOMED_lkp` b
+WHERE a.code=b.BNF_Code;
+
+SELECT a.code, a.term, a.SNOMED_Code, a.DMplusD_ProductDescription,
+b.person_id, b.dateevent, b.dateeventrecorded, b.nameofmedication
+FROM `yhcr-prd-phm-bia-core.CB_MYSPACE_MSP.BNFtoSNOMED` a,
+`yhcr-prd-phm-bia-core.CB_FDM_PrimaryCare_V8.tbl_srprimarycaremedication` b
+WHERE a.DMplusD_ProductDescription=b.nameofmedication;
+
+
+Links a BNF code found from OpenCodelists and links it to the Primary Care Medication.
+
+Assumes BNFreadcodesv2 table has been created in CB_MYSPACE_aa (Your myspace)
+
+This comes from OpenCodelists.org using the pseudo BNF code system. example of format is below: 
+
+code	term
+0403030E0BH	Olena
+0401020A0BB	Xanax
+0401010ACBB	Xyrem
+0401030C0BB	Amytal
+0401020P0BC	Ativan
+0401020B0BB	Buspar
+0403040W0BB	Efexor
+0403010R0BC	Lomont
+0403020M0BB	Nardil
+0403030E0BB	Prozac
+
+Example of how to use OpenCodelists and CB are found in teh Traininhg and Guidance sub folder
