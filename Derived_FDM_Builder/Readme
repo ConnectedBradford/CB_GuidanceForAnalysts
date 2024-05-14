@@ -28,7 +28,7 @@ type quit or click the top right to close the comand prompt.
 
 You can now upload your file to the notebook.
 
-Ensure that in Bigquery you create a new dataset called CB_FDM_xxxxxx <-- with whatever name you haev chosen. Make a note of this name.
+Ensure that in Bigquery you create a new dataset called CB_FDM_xxxxxx <-- with whatever name you have chosen. Make a note of this name.
 
 Open the scripts 1 - 5 , in order.
 Amending source_db's etc where appropriate.
