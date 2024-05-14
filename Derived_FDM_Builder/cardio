@@ -1,0 +1,110 @@
+code,term
+G57..,Disorder of heart rhythm
+G570.,Paroxysmal supraventricular tachycardia
+G5700,Paroxysmal atrial tachycardia
+G5701,Paroxysmal atrioventricular tachycardia
+G5702,Paroxysmal junctional tachycardia
+G5703,Paroxysmal nodal tachycardia
+G570z,Paroxysmal supraventricular tachycardia NOS
+G571.,Ventricular tachycardia (& [paroxysmal])
+G572.,Paroxysmal tachycardia unspecified
+G5720,Essential paroxysmal tachycardia
+G5721,Bouveret-Hoffmann syndrome
+G572z,Paroxysmal tachycardia NOS
+G573.,Atrial fibrillation and flutter
+G5730,Atrial fibrillation
+G5731,Atrial flutter
+G5732,Paroxysmal atrial fibrillation
+G573z,Atrial fibrillation and flutter NOS
+G574.,Ventricular fibrillation and flutter
+G5740,Ventricular fibrillation
+G5741,Ventricular flutter
+G574z,Ventricular fibrillation and flutter NOS
+G577.,Sinus arrhythmia
+G57y.,(Heart beat:[miss][irreg])/(puls altern)/(oth card dysrhyth)
+G57y0,Persistent sinus bradycardia
+G57y1,Severe sinus bradycardia
+G57y3,Sick sinus syndrome
+G57y4,Sinoatrial node dysfunction NOS
+G57y6,Nodal rhythm disorder
+G57y7,Sinus tachycardia
+G57y9,Supraventricular tachycardia NOS
+G57yA,Re-entry ventricular arrhythmia
+G57yz,Other cardiac dysrhythmia NOS
+G57z.,Cardiac dysrhythmia NOS
+Gyu5a,[X]Other specified cardiac arrhythmias
+X2025,Paroxysmal tachycardia
+X2026,Sinoatrial node tachycardia
+X2027,Ectopic atrial tachycardia
+X2028,Re-entrant atrial tachycardia
+X2029,Incessant atrial tachycardia
+X202A,Ectopic atrioventricular node tachycardia
+X202B,Re-entrant atrioventricular node tachycardia
+X202C,Re-entrant atrioventricular tachycardia
+X202D,Orthodromic atrioventricular re-entrant tachycardia
+X202E,Antidromic atrioventricular re-entrant tachycardia
+X202F,SVT with functional bundle branch block
+X202G,His bundle tachycardia
+X202H,Congenital His bundle tachycardia
+X202I,Postoperative His bundle tachycardia
+X202J,Permanent junctional reciprocating tachycardia
+X202K,Ventricular tachycardia
+X202L,Ventricular tachycardia with normal heart
+X202M,Familial ventricular tachycardia
+X202N,Induced ventricular tachycardia
+X202O,Incessant infant ventricular tachycardia
+X202P,Right ventricular outflow tract ventricular tachycardia
+X202Q,Atrial dysrhythmia
+X202R,Lone atrial fibrillation
+X202S,Non-rheumatic atrial fibrillation
+X202T,Bradycardia-tachycardia syndrome
+X202U,Familial sick sinus syndrome
+X202V,Postoperative sinoatrial disease
+X202W,Ventricular dysrhythmia
+X202X,Paroxysmal familial ventricular fibrillation
+X77BB,Arrhythmia
+X77BC,Sinus arrhythmia
+X77BD,Marked sinus arrhythmia
+X77BF,Left atrial rhythm
+X77BI,Coronary sinus rhythm
+X77BJ,Supraventricular arrhythmia
+X77BO,Multifocal atrial tachycardia
+X77BQ,His Bundle (junctional ectopic) tachycardia
+X77BS,Wide QRS ventricular tachycardia
+X77BT,Narrow QRS ventricular tachycardia
+X77BU,"Ventricular tachycardia, monomorphic"
+X77BV,"Ventricular tachycardia, polymorphic"
+X77BW,"Ventricular tachy, polymorphic without Q-T prolongation"
+X77BX,"Ventricular tachycardia, polymorphic with Q-T prolongation"
+X77BZ,Sinus bradycardia
+X77Ba,Slow ventricular response
+X77Bb,Fibrillation
+X77Be,Junctional rhythm
+X77Bf,AV-junctional (nodal) bradycardia
+X77Bg,AV junctional (nodal) arrest
+X77Bi,AV junctional (nodal) tachycardia
+X77Bj,AV nodal re-entry tachycardia
+X77Bk,Idioventricular rhythm
+X77Bl,Ectopic rhythm abnormality
+X77C5,Fusion beat
+X77C6,Escape beat
+X77C9,Ventricular parasystole
+X77CA,Atrial parasystole
+XE0V4,Paroxysmal ventricular tachycardia
+XE0V7,Other cardiac dysrhythmias
+XE0Wi,Supraventric tachycardia (& [paroxys] or [paroxys artrial])
+XE0Wk,(Atrial fibrillation) or (atrial flutter)
+XE0Wm,(Gallop rhyth)(sick sinus syn)(wander pacem)(card dysrh NOS)
+Xa0D3,Atrial tachycardia
+Xa0k6,Supraventricular tachycardia
+Xa0kY,Atrioventricular tachycardia
+Xa2E8,Paroxysmal atrial fibrillation
+Xa7nI,Controlled atrial fibrillation
+Xa7nJ,Asymptomatic sinoatrial node dysfunction
+XaEga,Rapid atrial fibrillation
+XaOfa,Persistent atrial fibrillation
+XaOft,Permanent atrial fibrillation
+XaaUH,Paroxysmal atrial flutter
+XaeUP,Chronic atrial fibrillation
+XaeUQ,Typical atrial flutter
+XaeUR,Atypical atrial flutter

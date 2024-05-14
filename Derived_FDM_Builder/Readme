@@ -1,0 +1,38 @@
+To Build a derived FDM from various tables
+
+These scripts assume that you are using Primary Care and OpenCodelists to build your cohort
+and that for the "other" data you are using a FDM  that is already in fdm format 
+
+Firstly use OpenCodelists to define your list of codes to look for
+
+Do this in CTV3 format
+
+Save it to your downloads folder
+
+Next Open Jupyter Notebook and create a new folder. load the full
+Derived FDM Builder scripts into it and your code file 
+
+
+You may need to remove the suffix -This can be done using a dos command, see below:
+
+From your start menu type cmd
+The command prompt shoudl be displayed - open this 
+This should open at c:\Users\yourname\
+
+type cd Downloads to move to your download folder
+type  dir to list the files
+
+once you find your file type: rename yourfile.csv yourfile
+
+type quit or click the top right to close the comand prompt.
+
+You can now upload your file to the notebook.
+
+Ensure that in Bigquery you create a new dataset called CB_FDM_xxxxxx <-- with whatever name you haev chosen. Make a note of this name.
+
+Open the scripts 1 - 5 , in order.
+Amending source_db's etc where appropriate.
+
+
+
+
