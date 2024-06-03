@@ -1,6 +1,4 @@
-# FDM built check_rowCounts Code
+# FDM built check_rowCounts and Search_facility Scripts
+# The FDM team has developed two scripts, PAA\_RTEST\_Check\_RowCount and PAA\_Test\_Check\_Scripts, to compare the number of rows in tables between source and target databases in Google BigQuery. These scripts loop through each table in the list and use the `get_row_count` function to compare the row counts. If the row counts match, the script will print a message indicating that the tables are in sync. However, if there is a discrepancy in the row counts, the script will print an error message to alert the team.
 
-The R and python scripts loops through each table in the list, and it uses the `get_row_count` function to compare the number of rows in the source and target tables. If the row counts match, the script prints a message saying so. If the row counts do not match, the script prints a message indicating that there is a discrepancy.
-
-Similary, The Search_facility R script is designed to search a specific table in a Google BigQuery dataset for rows that contain a specified search phrase in a specified column. 
-Note: If an error occurs during the execution of the function, it will be caught by the `tryCatch` block, and an error message will be printed to the console.
+# Additionally, the team has created an R script called RSearch\_Facility\_Script to search for specific data in a Google BigQuery dataset. This script is designed to search for rows in a specified table that contain a particular search phrase in a specified column. If an error occurs during the execution of the function, the script will catch the error using the `tryCatch` block and print an error message to the console for troubleshooting.
