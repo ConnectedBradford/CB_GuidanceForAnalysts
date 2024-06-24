@@ -1,0 +1,16 @@
+
+The process is:
+1.	Log in to GitHub.
+2.	Navigate to the Connected Bradford GitHub organisation page.
+3.	Click "New" to set up a new repository. I named mine after my workbench name, i.e. c-mcinerney-workspace.
+4.	Navigate to the new repository page.
+5.	Select the green 'Code' button and copy the HTTPS address.
+6.	Back in your Jupyter Lab workbench navigate to where you want your local GitHub repo to sit.
+7.	In the menu ribbon, select 'Git' and 'Clone a repository'.
+8.	Paste the HTTPS that you copied from the GitHub repo. Enter any details that is asks for.
+9.	A new folder should appear in your navigation tree in the left pane of your Jupyter Lab.
+10.	If you already have files and folders in your workbench, select and move them into the GitHub repo folder.
+11.	You now need to stage, commit and push this files to the remote Git repo. This is done most easily using the point-and-click UI accessible from the   button at the far left of your Jupyter Lab screen. By default, all your recently-moved files will be 'Untracked'. To track them, click the '+' button next to the 'Untracked' header.
+12.	Then stage them by clicking the '+' next to the 'Changed' header. This should awaken the 'COMMIT' button at the bottom of the pane.
+13.	Enter a description of your commit and commit the stages files.
+14.	You will be asked for a username and password/token. YOU MUST USE A TOKEN because password pushes to remote repo's from things like GCP have been disabled since 2001. To make a classic token, just follow the instructions, here (https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
