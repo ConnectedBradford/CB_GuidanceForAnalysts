@@ -1,5 +1,0 @@
-Ensuring efficient and effective search capabilities across database infrastructure is critical. Attached, I have provided a set of Python scripts that cater to various search scopes within a BigQuery project. These scripts enable you to search through the entire project, specific datasets, or particular tables with optimized performance and parallel execution where appropriate.
-Script 1- Generic Search Through the Entire Project: This script searches through the entire project to find specific phrases in datasets, tables, or columns.
-Script 2 - Search in Specific Datasets: This script focuses on searching specific datasets within the project.
-Script 3 - Search in Specific Tables: This script searches within specific tables in a given dataset.
-Script 4 - Search in Targeted Datasets and Tables: The script operates on a predefined list of dataset ID and table ID pairs (dataset_table_pairs). It focuses the search within these specific datasets and tables.
